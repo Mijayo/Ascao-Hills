@@ -1,20 +1,8 @@
 ## Trabajo de Ascao Hills
 
-Buenas chicos como hemos hablado nos repartimos el currele y para la vuelta del puente de mayo intentar todos tenerlo ya casi hecho o terminado.
+* Hasta el momento tenemos todo hecho, ahora toca juntar todo que de eso se encargara Adrian. 
 
-* Header: Diego y Artemio
-* Habitaciones_medio: Jesus y Adrian
-* Novedades y "Footer": Eduardo y Ricardo
+* Por otro lado tenemos que ir empezando a crear responsive. 
 
-Recordar crear vuestro branch para posteriormente antes de solapar todo verificarlo, sino sabeis como hablar Adrian.
-
-A darle duro chicos y a ganar  :D
-
-Branch creados actualmente:
-
-* Headers
-* Habitaciones-medio
-* Novedades
-
-
+* Los puntos de corte los teneis al final del documento css, diferenciar que etiquetas son de vuestra seccion indicandolo con un titulo global.
 
