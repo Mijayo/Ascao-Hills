@@ -245,8 +245,8 @@ a i {
     position: absolute;
     height: 150px;
     background: #454342de;
-    left: 300px;
-    bottom: -80px;
+    left: 27%;
+    bottom: -50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -307,11 +307,11 @@ a i {
 }
 
 #img_p_1 {
-    background-image: url(../img/img_p_1.jpg);
+    background-image: url(../img/img_p_2.jpg);
 }
 
 #img_p_2 {
-    background-image: url(../img/img_p_2.jpg);
+    background-image: url(../img/img_p_1.jpg);
 }
 
 
