@@ -117,56 +117,6 @@ a i {
 }
 
 
-/* Min/1024px Max/1250 */
-
-@media screen and (max-width:1366px) {
-    #imgFondo {
-        height: 80vh;
-    }
-    #h1 {
-        left: 28%;
-        font-size: 40px;
-    }
-}
-
-
-/* Min/375 Max/1024px */
-
-@media screen and (max-width: 1024px) {
-    #imgFondo {
-        height: 80vh;
-    }
-    #h1 {
-        left: 28%;
-        font-size: 40px;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    li {
-        margin-right: 10px;
-    }
-    #contactInfo {
-        width: 500px;
-    }
-    ul {
-        padding: 0px;
-    }
-    .marIcon {
-        padding-top: 10px;
-        padding-right: 15px;
-    }
-    #h1 {
-        top: 35%;
-        padding-right: 60px;
-    }
-    #botonPlay {
-        padding-left: 45%;
-        padding-bottom: 15%;
-    }
-}
-
-
 /* Pisos */
 
 .master {
@@ -191,7 +141,7 @@ a i {
     position: absolute;
     width: 20%;
     padding: 15px 0;
-    left: 70px;
+    left: 7%;
     top: 30px;
 }
 
@@ -343,3 +293,68 @@ a i {
 
 
 /* FOOTER */
+
+
+/************************************************************/
+
+
+/************************************************************/
+
+
+/************************************************************/
+
+
+/*  MEDIA QUERYS */
+
+
+/* HEADER */
+
+
+/* Min/1024px Max/1250 */
+
+@media screen and (max-width:1366px) {
+    #imgFondo {
+        height: 80vh;
+    }
+    #h1 {
+        left: 28%;
+        font-size: 40px;
+    }
+}
+
+
+/* Min/375 Max/1024px */
+
+@media screen and (max-width: 1024px) {
+    #imgFondo {
+        height: 80vh;
+    }
+    #h1 {
+        left: 28%;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    li {
+        margin-right: 10px;
+    }
+    #contactInfo {
+        width: 500px;
+    }
+    ul {
+        padding: 0px;
+    }
+    .marIcon {
+        padding-top: 10px;
+        padding-right: 15px;
+    }
+    #h1 {
+        top: 35%;
+        padding-right: 60px;
+    }
+    #botonPlay {
+        padding-left: 45%;
+        padding-bottom: 15%;
+    }
+}
