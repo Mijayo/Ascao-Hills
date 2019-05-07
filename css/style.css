@@ -25,16 +25,18 @@ img {
 #imgFondo {
     margin-top: 50px;
     max-width: 100%;
-    height: 100vh;
+    height: 80vh;
     background-image: linear-gradient(rgba(59, 59, 59, 0.48), rgba(59, 59, 59, 0.48)), url("../img/img_g_2.jpg");
     background-position: center;
     background-size: cover;
     filter: saturate(2);
+    text-align: center;
 }
 
 #nav {
     /* border: 1px solid red; */
     display: flex;
+    /* position: fixed; */
     position: absolute;
     justify-content: space-around;
     top: 0;
@@ -79,8 +81,8 @@ img {
     background: white;
     position: absolute;
     width: 120px;
-    top: -10px;
-    left: 44%;
+    top: 0px;
+    left: 46%;
     filter: saturate(2);
 }
 
@@ -89,8 +91,10 @@ img {
     max-height: 100vh;
 }
 
-#contactInfo,
-#indexZ {}
+.caja {
+    width: 100%;
+    text-align: center;
+}
 
 #contactInfo {
     width: 50%;
@@ -102,28 +106,6 @@ img {
     color: #333333;
     font-size: 30px;
 }
-
-
-/* ul {
-    display: flex;
-    justify-content: space-evenly;
-    margin-right: 30px;
-    margin: 10px;
-} */
-
-
-/* li {
-    display: flex;
-    justify-content: space-between;
-    color: rgb(175, 175, 175);
-    list-style: none;
-} */
-
-
-/* .marIcon {
-    padding-right: 20px;
-    color: rgb(131, 131, 131);
-} */
 
 #botonPlay {
     position: absolute;
@@ -137,10 +119,10 @@ a i {
     color: rgba(255, 255, 255, 0.5);
 }
 
-#h1 {
+.caja {
     position: absolute;
+    width: 100%;
     top: 50%;
-    margin-left: 13%;
     color: rgba(255, 255, 255);
 }
 
@@ -159,7 +141,7 @@ a i {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90%;
+    width: 100%;
     height: 500px;
     justify-content: center;
     padding: 15px 0;
@@ -182,7 +164,7 @@ a i {
     border-bottom: 1px solid black;
     padding: 10px 0;
     color: gray;
-    font-size: 13px;
+    font-size: 10px;
 }
 
 .titulo h3,
@@ -390,14 +372,14 @@ a i {
 #pieRey {
     width: 100%;
     background: #454342de;
-    height: 10%;
+    height: 13%;
     display: flex;
     justify-content: space-evenly;
     padding: 5px 0;
 }
 
 .pieRey_hijo {
-    width: 60%;
+    width: 80%;
     display: flex;
     justify-content: space-evenly;
 }
@@ -410,7 +392,7 @@ a i {
 }
 
 .footericons2 {
-    width: 30%;
+    width: 20%;
 }
 
 .footericons {
@@ -422,7 +404,7 @@ a i {
     height: auto;
     color: rgb(175, 175, 175);
     transition: 0.8s ease;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .linkhover:nth-child(1):hover {
@@ -447,8 +429,8 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 10px 30px 10px 0;
-    padding: 20px;
+    margin: 10px 30px;
+    padding: 20px 0px;
     font-size: 18px;
     width: 90%;
 }
@@ -458,6 +440,7 @@ li {
     justify-content: space-between;
     color: rgb(175, 175, 175);
     list-style: none;
+    align-items: center;
 }
 
 
