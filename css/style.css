@@ -17,24 +17,39 @@ img {
 /* HEADER */
 
 .container {
+    /* border: 1px solid green; */
+    /* background-color: red; */
+    font-family: 'Cormorant Garamond', serif;
     position: relative;
-    min-height: 95vh;
+    /* display: flex; */
+    min-height: 100vh;
+    /* padding: 20px; */
+}
+
+.holiwis {
+    margin-right: 10px;
 }
 
 #imgFondo {
+    /* border: 1px solid red; */
     max-width: 100%;
     height: 90vh;
-    background-image: linear-gradient(rgba(59, 59, 59, 0.48), rgba(59, 59, 59, 0.48)), url("../img/img_g_2.jpg");
+    background-image: linear-gradient(rgba(59, 59, 59, 0.48), rgba(59, 59, 59, 0.48)), url("../img/cocina.jpg");
     background-position: center;
     background-size: cover;
     filter: saturate(2);
-    margin: 0 0 30px 0;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* z-index: 1; */
 }
 
 #logo {
-    width: 75px;
+    /* border: 1px solid red; */
+    width: 85px;
     padding-left: 20px;
     filter: saturate(2);
+    /* z-index: 99; */
 }
 
 #nav {
@@ -44,7 +59,8 @@ img {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* border: 1px solid blue; */
+    /* z-index: 9999; */
 }
 
 #imgBC {
@@ -52,8 +68,34 @@ img {
     max-height: 100vh;
 }
 
+#prueba1 {
+    position: absolute;
+    margin-left: 65%;
+}
+
+#prueba3 {
+    position: absolute;
+    margin-left: 80%;
+}
+
+#indexZ {
+    /* display: inline-block;
+    vertical-align: top; */
+}
+
 #contactInfo {
+    /* border: 1px solid red; */
     width: 50%;
+    /* float: right; */
+    /* display: flex;
+    flex-direction: row;
+    justify-items: flex-end; */
+}
+
+#contacto {
+    /* display: flex;
+    justify-items: flex-end; */
+    /* text-align: center; */
 }
 
 #txt1 {
@@ -62,10 +104,14 @@ img {
 }
 
 ul {
+    /* width: 100%; */
+    /* border: 1px solid red; */
     display: flex;
+    /* flex-direction: row; */
     justify-content: space-evenly;
     margin-right: 30px;
     margin: 10px;
+    /* font-size: 18px; */
 }
 
 li {
@@ -81,6 +127,7 @@ li {
 }
 
 #botonPlay {
+    /* border: 1px solid red; */
     position: absolute;
     bottom: 0;
     padding: 0px 0px 25px 55px;
@@ -97,6 +144,79 @@ a i {
     top: 50%;
     left: 35%;
     color: rgba(255, 255, 255);
+}
+
+
+/* Min/1024px Max/1250 */
+
+@media screen and (max-width:1366px) {
+    #imgFondo {
+        height: 80vh;
+    }
+    #h1 {
+        left: 28%;
+        font-size: 40px;
+    }
+}
+
+
+/* Min/375 Max/1024px */
+
+@media screen and (max-width: 1024px) {
+    #imgFondo {
+        height: 80vh;
+    }
+    #h1 {
+        left: 28%;
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    li {
+        margin-right: 10px;
+    }
+    #contactInfo {
+        width: 500px;
+    }
+    #imgFondo {
+        text-align: centeR;
+    }
+    ul {
+        padding: 0px;
+    }
+    .marIcon {
+        padding-top: 10px;
+        padding-right: 15px;
+    }
+    #h1 {
+        top: 30%;
+        left: 0%;
+        padding: 0% 15%;
+        line-height: 50px;
+    }
+    #botonPlay {
+        padding-left: 40%;
+        padding-bottom: 15%;
+    }
+    #dosli {
+        padding-right: 25px;
+    }
+    #prueba1 {
+        display: flex;
+        margin-left: 10px;
+        width: 30%;
+    }
+    #prueba2 {
+        margin-left: 35%;
+    }
+    #prueba3 {
+        display: flex;
+        margin-left: 70%;
+    }
+    .cajadeincognito {
+        margin-top: 10%;
+    }
 }
 
 
@@ -420,62 +540,3 @@ li {
 
 
 /*  MEDIA QUERYS */
-
-
-/* Min/1024px Max/1250 */
-
-@media screen and (max-width:1366px) {
-    /* HEADER */
-    #imgFondo {
-        height: 80vh;
-    }
-    #h1 {
-        left: 28%;
-        font-size: 40px;
-    }
-    /* PISOS */
-    /* FOOTER */
-}
-
-
-/* Min/375 Max/1024px */
-
-@media screen and (max-width: 1024px) {
-    /* HEADER */
-    #imgFondo {
-        height: 80vh;
-    }
-    #h1 {
-        left: 28%;
-        font-size: 40px;
-    }
-    /* PISOS */
-    /* FOOTER */
-}
-
-@media screen and (max-width: 375px) {
-    /* HEADER */
-    li {
-        margin-right: 10px;
-    }
-    #contactInfo {
-        width: 500px;
-    }
-    ul {
-        padding: 0px;
-    }
-    .marIcon {
-        padding-top: 10px;
-        padding-right: 15px;
-    }
-    #h1 {
-        top: 35%;
-        padding-right: 60px;
-    }
-    #botonPlay {
-        padding-left: 45%;
-        padding-bottom: 15%;
-    }
-    /* PISOS */
-    /* FOOTER */
-}
