@@ -422,12 +422,10 @@ li {
 /*  MEDIA QUERYS */
 
 
-/* HEADER */
-
-
 /* Min/1024px Max/1250 */
 
 @media screen and (max-width:1366px) {
+    /* HEADER */
     #imgFondo {
         height: 80vh;
     }
@@ -435,12 +433,15 @@ li {
         left: 28%;
         font-size: 40px;
     }
+    /* PISOS */
+    /* FOOTER */
 }
 
 
 /* Min/375 Max/1024px */
 
 @media screen and (max-width: 1024px) {
+    /* HEADER */
     #imgFondo {
         height: 80vh;
     }
@@ -448,9 +449,12 @@ li {
         left: 28%;
         font-size: 40px;
     }
+    /* PISOS */
+    /* FOOTER */
 }
 
 @media screen and (max-width: 375px) {
+    /* HEADER */
     li {
         margin-right: 10px;
     }
@@ -472,4 +476,6 @@ li {
         padding-left: 45%;
         padding-bottom: 15%;
     }
+    /* PISOS */
+    /* FOOTER */
 }

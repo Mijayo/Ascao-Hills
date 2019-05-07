@@ -16,8 +16,6 @@ var perfiles = [{
 ];
 
 
-let galeria = document.querySelector('#galeria');
-
 $('#galeria').load(function() {
 
     var x = 0;
