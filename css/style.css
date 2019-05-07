@@ -16,6 +16,15 @@ img {
 
 /* HEADER */
 
+.black {
+    box-shadow: 0px 11px 20px -16px rgba(120, 120, 120, 1);
+    position: fixed;
+    top: 0;
+    /* background: #333; */
+    width: 100%;
+    height: 50px;
+}
+
 .container {
     font-family: 'Cormorant Garamond', serif;
     position: relative;
@@ -35,15 +44,16 @@ img {
 
 #nav {
     /* border: 1px solid red; */
+    padding-top: 10px;
     display: flex;
-    /* position: fixed; */
-    position: absolute;
+    position: fixed;
+    /* position: absolute; */
     justify-content: space-around;
     top: 0;
     background: rgba(255, 255, 255);
     width: 100%;
     z-index: 9;
-    height: 50px;
+    height: 65px;
 }
 
 #prueba1 {
@@ -81,7 +91,7 @@ img {
     background: white;
     position: absolute;
     width: 120px;
-    top: 0px;
+    top: 10px;
     left: 46%;
     filter: saturate(2);
 }
