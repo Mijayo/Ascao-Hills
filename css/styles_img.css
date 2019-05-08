@@ -1,0 +1,60 @@
+/* PISOS */
+
+.img_grande,
+.img_peque {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: 0.5s ease;
+}
+
+#img_g_1 {
+    background-image: url(../img/img_1.jpg);
+}
+
+#img_g_1:hover {
+    background-image: url(../img/img_2.jpg);
+}
+
+#img_g_2 {
+    background-image: url(../img/img_3.jpg);
+}
+
+#img_g_2:hover {
+    background-image: url(../img/img_4.jpg);
+}
+
+#img_p_1 {
+    background-image: url(../img/img_2.jpg);
+}
+
+#img_p_2 {
+    background-image: url(../img/img_2.jpg);
+}
+
+
+/* NOVEDADES  */
+
+#img1 {
+    background-image: url("../img/img_5.jpg");
+}
+
+#img2 {
+    background-image: url("../img/img_5.jpg");
+}
+
+#img3 {
+    background-image: url("../img/img_5.jpg");
+}
+
+#img1_1 {
+    background-image: url("../img/edf1.jpg");
+}
+
+#img2_1 {
+    background-image: url("../img/edf2.jpg");
+}
+
+#img3_1 {
+    background-image: url("../img/edf3.png");
+}

@@ -35,7 +35,7 @@ img {
     margin-top: 50px;
     max-width: 100%;
     height: 80vh;
-    background-image: linear-gradient(rgba(59, 59, 59, 0.48), rgba(59, 59, 59, 0.48)), url("../img/img_g_2.jpg");
+    background-image: linear-gradient(rgba(59, 59, 59, 0.48), rgba(59, 59, 59, 0.48)), url("../img/img_5.jpg");
     background-position: center;
     background-size: cover;
     filter: saturate(2);
@@ -87,8 +87,6 @@ img {
 .whili {
     padding-right: 30px;
 }
-
-#indexZ {}
 
 #logo {
     box-shadow: 0px -5px 13px -1px rgba(214, 214, 214, 1);
@@ -155,18 +153,19 @@ a i {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    height: 500px;
+    width: 90%;
+    min-height: 500px;
     justify-content: center;
     padding: 15px 0;
+    margin: 10px 0;
 }
 
 .titulo {
     position: absolute;
     width: 20%;
     padding: 15px 0;
-    left: 7%;
-    top: 30px;
+    left: 0%;
+    top: 0px;
 }
 
 .titulo h3 {
@@ -190,7 +189,7 @@ a i {
 
 .abajo {
     position: relative;
-    width: 80%;
+    width: 90%;
     height: 450px;
     display: flex;
     align-items: flex-end;
@@ -198,30 +197,30 @@ a i {
 }
 
 .apart_info {
-    width: 90%;
+    width: 100%;
     height: 350px;
     display: flex;
     align-items: flex-end;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .img_peque {
     width: 30%;
-    height: 200px;
+    height: 250px;
 }
 
 .img_grande {
     width: 65%;
-    height: 350px;
+    height: 400px;
 }
 
 .txt_info {
     line-height: 1.4;
-    width: 150px;
+    width: 200px;
     position: absolute;
     height: 150px;
     background: #454342de;
-    left: 27%;
+    left: 25%;
     bottom: -50px;
     display: flex;
     justify-content: center;
@@ -230,7 +229,7 @@ a i {
 }
 
 .txt_info_cap {
-    width: 80%;
+    width: 70%;
     color: white;
     transition: 1s ease;
 }
@@ -253,41 +252,6 @@ a i {
     color: white;
     text-transform: uppercase;
     font-size: 30px;
-}
-
-
-/* IMAGENES */
-
-.img_grande,
-.img_peque {
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    transition: 0.5s ease;
-}
-
-#img_g_1 {
-    background-image: url(../img/img_g_1.jpg);
-}
-
-#img_g_1:hover {
-    background-image: url(../img/img_p_1.jpg);
-}
-
-#img_g_2 {
-    background-image: url(../img/img_g_2.jpg);
-}
-
-#img_g_2:hover {
-    background-image: url(../img/img_p_2.jpg);
-}
-
-#img_p_1 {
-    background-image: url(../img/img_p_2.jpg);
-}
-
-#img_p_2 {
-    background-image: url(../img/img_p_1.jpg);
 }
 
 
@@ -358,30 +322,6 @@ a i {
     position: absolute;
     bottom: -35px;
     left: -35px;
-}
-
-#img1 {
-    background-image: url("../img/4.jpg");
-}
-
-#img2 {
-    background-image: url("../img/5.jpg");
-}
-
-#img3 {
-    background-image: url("../img/6.jpg");
-}
-
-#img1_1 {
-    background-image: url("../img/edf1.jpg");
-}
-
-#img2_1 {
-    background-image: url("../img/edf2.jpg");
-}
-
-#img3_1 {
-    background-image: url("../img/edf3.png");
 }
 
 #pieRey {
@@ -471,11 +411,9 @@ li {
     #nav {
         height: 95px;
     }
-
     #logo {
         top: 20px;
     }
-    
     #imgFondo {
         height: 85vh;
     }
