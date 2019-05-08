@@ -9,7 +9,7 @@ $(document).ready(function() {
     });
 });
 
-
+/*
 var perfiles = [{
         "foto": "img/4.jpg",
         "edificio": "img/edf1.jpg",
@@ -46,4 +46,4 @@ $('#galeria').load(function() {
     }
     document.write("</div>");
     document.write("</section>");
-});
+});*/
