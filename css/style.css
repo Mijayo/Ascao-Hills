@@ -56,6 +56,10 @@ img {
     height: 65px;
 }
 
+.txtInfoCont {
+    font-size: 20px;
+}
+
 #prueba1 {
     /* border: 1px solid red; */
     width: 300px;
@@ -463,13 +467,22 @@ li {
 
 /* Min/1024px Max/1250 */
 
-@media screen and (max-width:1366px) {
+@media screen and (min-width:1366px) {
+    #nav {
+        height: 95px;
+    }
+
+    #logo {
+        top: 20px;
+    }
+    
     #imgFondo {
-        height: 80vh;
+        height: 85vh;
     }
     #h1 {
         /* left: 28%; */
-        font-size: 40px;
+        /* top: -5px; */
+        font-size: 60px;
     }
 }
 
