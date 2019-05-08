@@ -28,7 +28,7 @@ img {
 .container {
     font-family: 'Cormorant Garamond', serif;
     position: relative;
-    max-height: 600px;
+    min-height: 600px;
 }
 
 #imgFondo {
