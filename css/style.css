@@ -405,6 +405,9 @@ li {
     .txt_info {
         left: 27%;
     }
+    .titulo{
+        width: 30%;
+    }
     .titulo a {
         font-size: 16px;
     }
@@ -420,10 +423,8 @@ li {
         height: 380px;
     }
     #galeria{
-        margin: 50px 0 0 0;
-        
+        margin: 50px 0 0 0; 
     }
-   
     #contacto {
         width: 66%;
     }
@@ -455,7 +456,7 @@ li {
         font-size: 40px;
     }
     .titulo {
-        width: 40%;
+        width: 80%;
         margin: 0px 0 20px 0;
         top: -10px;  
     }
@@ -475,7 +476,6 @@ li {
         display: flex;
         align-items: center;
         flex-direction: column;
-        
     }
     
     .marIcon{
