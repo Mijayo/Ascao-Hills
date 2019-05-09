@@ -4,25 +4,27 @@
      padding: 0%;
      font-family: 'Cormorant Garamond', serif;
  }
-
+ 
  a {
      text-decoration: none;
  }
- ul, li{
+ 
+ ul,
+ li {
      list-style: none;
  }
-
+ 
  img {
      width: 100%;
  }
-
  /* HEADER */
-.container {
-    font-family: 'Cormorant Garamond', serif;
-    min-height: 600px;
-}
-
-#imgFondo {
+ 
+ .container {
+     font-family: 'Cormorant Garamond', serif;
+     min-height: 600px;
+ }
+ 
+ #imgFondo {
      margin-top: 50px;
      max-width: 100%;
      height: 80vh;
@@ -32,8 +34,8 @@
      filter: saturate(2);
      text-align: center;
  }
-
-#nav {
+ 
+ #nav {
      padding-top: 10px;
      position: fixed;
      top: 0;
@@ -45,65 +47,70 @@
      background: rgba(255, 255, 255);
      z-index: 2;
  }
-.prueba1 {
-    width: 300px;
-    align-items: center;
-}
-#prueba2,.prueba1{
-    display: flex;
-    justify-content: center;
-}
-.txtInfoCont {
-    font-size: 20px;
-}
-.cajadeincognito {
-    color: #5c5c5c;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
  
-.whili {
-    padding-right: 20px;
-}
-
-#logo {
-    box-shadow: 0px -5px 13px -1px rgba(214, 214, 214, 1);
-    background: white;
-    position: absolute;
-    width: 120px;
-    top: 20px;
-    filter: saturate(2);
-}
-
-.caja {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#botonPlay {
-    position: absolute;
-    bottom: 0;
-    width: 20%;
-    padding: 30px 0;
-}
-
-a i {
-    font-size: 35px;
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.8);
-}
-.caja {
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    color: rgba(255, 255, 255);
-}
-
+ .prueba1 {
+     width: 30%;
+     align-items: center;
+ }
+ 
+ #prueba2,
+ .prueba1 {
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .txtInfoCont {
+     font-size: 20px;
+ }
+ 
+ .cajadeincognito {
+     color: #5c5c5c;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+ }
+ 
+ .whili {
+     padding-right: 20px;
+ }
+ 
+ #logo {
+     box-shadow: 0px -5px 13px -1px rgba(214, 214, 214, 1);
+     background: white;
+     position: absolute;
+     width: 120px;
+     top: 30px;
+     filter: saturate(2);
+ }
+ 
+ .caja {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ #botonPlay {
+     position: absolute;
+     bottom: 0;
+     width: 20%;
+     padding: 30px 0;
+ }
+ 
+ a i {
+     font-size: 35px;
+     text-decoration: none;
+     color: rgba(255, 255, 255, 0.8);
+ }
+ 
+ .caja {
+     position: absolute;
+     width: 100%;
+     top: 50%;
+     color: rgba(255, 255, 255);
+ }
  /* Pisos */
-
+ 
  .master {
      display: flex;
      flex-direction: column;
@@ -111,7 +118,7 @@ a i {
      align-items: center;
      justify-content: center;
  }
-
+ 
  .apartamento {
      display: flex;
      flex-direction: column;
@@ -129,22 +136,27 @@ a i {
      left: 0%;
      top: 0px;
  }
-
+ 
  .titulo h3 {
      font-size: 20px;
  }
-
+ 
  .titulo a {
-     text-decoration: none; 
+     text-decoration: none;
      color: gray;
      font-size: 10px;
  }
-
- .titulo h3, .titulo h5, .titulo a {
+ 
+ .titulo h3,
+ .titulo h5,
+ .titulo a {
      margin: 10px 0 20px 0;
+ }
+ 
+ .titulo h3 {
      text-transform: uppercase;
  }
-
+ 
  .abajo {
      position: relative;
      width: 90%;
@@ -153,7 +165,7 @@ a i {
      align-items: flex-end;
      justify-content: center;
  }
-
+ 
  .apart_info {
      width: 100%;
      height: 350px;
@@ -161,69 +173,71 @@ a i {
      align-items: flex-end;
      justify-content: space-between;
  }
-
+ 
  .img_peque {
      width: 30%;
      height: 250px;
  }
-
+ 
  .img_grande {
      width: 65%;
      height: 400px;
  }
-
+ 
  .txt_info {
      line-height: 1.4;
      width: 220px;
      position: absolute;
      height: 150px;
-     background: #454342de;
-     left: 24%;
+     background: #454342c7;
      bottom: -50px;
      display: flex;
      justify-content: center;
      align-items: center;
      flex-direction: column;
  }
-
+ 
+ .capa_txt {
+     background-image: url(../img/capa_cajas.png);
+     width: 220px;
+     height: 150px;
+ }
+ 
  .txt_info_cap {
      width: 70%;
      color: white;
      transition: 1s ease;
  }
-
+ 
  .txt_info:hover .txt_info_cap_info {
      display: block;
  }
-
+ 
  .txt_info:hover .txt_info_cap {
      display: none;
  }
-
+ 
  .txt_info_cap_info {
      color: white;
-     text-transform: uppercase;
      display: none;
  }
-
+ 
  .txt_info_cap_info a {
      color: white;
-     text-transform: uppercase;
      font-size: 30px;
  }
-
  /* Animaciones */
-
+ 
  .animated {
      animation-duration: 1s;
      animation-fill-mode: both;
  }
-
+ 
  .fast {
      animation-duration: 0.5s;
      animation-fill-mode: both;
  }
-
+ 
  @keyframes fadeIn {
      from {
          opacity: 0;
@@ -232,363 +246,296 @@ a i {
          opacity: 1;
      }
  }
-
+ 
  .fadeIn {
      animation-name: fadeIn;
  }
-
  /* FOOTER */
+ 
  #galeria {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-#contenedorI {
-    width: 80%;
-    height: 400px;
-    display: flex;
-    justify-content: space-between;
-}
-.cajita {
-    width: 30%;
-    height: 250px;
-    background-size: cover;
-    position: relative;
-}
-.fuente1{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    bottom: -100px;
-} 
-.fuente2{
-    font-size: 18px;
-    padding: 20px 0;
-} 
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ 
+ #contenedorI {
+     width: 80%;
+     height: 400px;
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .cajita {
+     width: 30%;
+     height: 200px;
+     background-size: cover;
+     position: relative;
+ }
+ 
+ .fuente1 {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     position: absolute;
+     bottom: -100px;
+ }
+ 
+ .fuente2 {
+     font-size: 18px;
+     padding: 20px 0;
+ }
+ 
  .cool-link {
-    display: inline-block;
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.cool-link::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background: #000;
-    transition: width .3s;
-    margin: 10px 0;
-}
-
-.cool-link:hover::after {
-    width: 100%;
-}
-/* footer */
-
+     display: inline-block;
+     color: #000;
+     text-decoration: none;
+     cursor: pointer;
+ }
+ 
+ .cool-link::after {
+     content: '';
+     display: block;
+     width: 0;
+     height: 2px;
+     background: #000;
+     transition: width .3s;
+     margin: 10px 0;
+ }
+ 
+ .cool-link:hover::after {
+     width: 100%;
+ }
+ /* footer */
+ 
  #pieRey {
-    width: 100%;
+     width: 100%;
      background: #454342de;
      height: 12%;
      display: flex;
      justify-content: center;
      align-items: center;
-     padding: 40px 0 ;
+     padding: 50px 0;
      z-index: auto;
      flex-direction: column;
+     color: white;
  }
-
- .pieRey_hijo {
-     width: 90%;
+ 
+ .footericons {
+     width: 80%;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+ }
+ 
+ .copyright {
      display: flex;
      justify-content: center;
-     padding: 5px 0;
-     flex-direction: column;
+     padding: 30px 0 0 0;
+     color: white;
+ }
+ 
+ #iconos {
+     width: 100%;
+     display: flex;
      align-items: center;
+     justify-content: space-between;
  }
- .footericons {
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.footericons2 {
-    width: 80%;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-}
-#contacto,.copyright{
-    width: 50%;
-}
-
-#contacto  {
-    display: flex;
-    justify-content: space-evenly;
-    color: white;
-    font-size: 18px;
-    width: 30%;
-    cursor: pointer;
-}
-
-.marIcon {
-    color: white;
-    width: 100%;
-    padding: 0 10px;
-}
-#iconos {
-    display: flex;
-    width: 20%;
-    justify-content: space-evenly;
-    align-items: flex-end;
-}
-
-.linkhover {
-    cursor: pointer;
-    height: auto;
-    color: #ffffff;
-    transition: 0.8s ease;
-    font-size: 12px;
-}
-
-.copyright{
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    padding: 20px 0 0 0;
-}
-li {
-    margin: 0 20px;
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    list-style: none;
-} 
-
- /************************************************************/
-
- /*  MEDIA QUERYS */
-
- /* PC GRANDE */ 
- @media screen and (min-width:1024px) {
-    #nav {
-         height: 90px;
-    }
-    #logo {
-        top: 40px;
-    }
-    #imgFondo {
-        height: 85vh;
-    }
-    #h1 {
-        font-size: 50px;
-    }
-     /* Pisos */ 
-    .apartamento{
-        margin: 0px 0 20px 0;
-    }
-    .master{
-         margin: 50px 0 20px 0;
-    }
-    #contenedorI{
-        min-height: 480px;
-        justify-content: space-between;
-    }
-    .cajita {
+ 
+ .contactos {
      width: 30%;
-        height: 350px;
-    }
-    .txt_info {
-        left: 27%;
-    }
-    .titulo{
-        width: 30%;
-    }
-    .titulo a {
-        font-size: 16px;
-    }
-    .titulo h5 {
-        font-size: 18px;
-    }
-    .img_peque {
-        width: 30%;
-        height: 250px;
-    }
-    .img_grande {
-        width: 65%;
-        height: 380px;
-    }
-    #galeria{
-        margin: 50px 0 0 0; 
-    }
-    #contacto {
-        width: 66%;
-    }
-    #contacto li{
-        width: 50%;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        font-size: 20px;
-    }
-    .marIcon{
-        width: 100%;
-        text-align: center;
-        padding: 10px 0;
-    }
-    #contenedorI {
-        
-        width: 80%;
-        height: 350px;
-        display: flex;
-        justify-content: space-between;
-    }
+     display: flex;
+     justify-content: space-around;
+     margin-left: 30px;
  }
-
+ 
+ .social {
+     width: 30%;
+     display: flex;
+     justify-content: space-evenly;
+ }
+ 
+ .contactos li {
+     width: 50%;
+     justify-content: space-between;
+     color: white;
+     list-style: none;
+ }
+ 
+ .linkhover {
+     cursor: pointer;
+     color: #ffffff;
+     font-size: 12px;
+ }
+ /************************************************************/
+ /*  MEDIA QUERYS */
+ /* PC GRANDE */
+ 
+ @media screen and (min-width:1024px) {
+     #nav {
+         height: 90px;
+     }
+     #logo {
+         top: 40px;
+     }
+     #imgFondo {
+         height: 85vh;
+     }
+     #h1 {
+         font-size: 50px;
+     }
+     /* Pisos */
+     .apartamento {
+         margin: 0px 0 20px 0;
+     }
+     .master {
+         margin: 50px 0 20px 0;
+     }
+     #contenedorI {
+         margin: 50px 0 20px 0;
+         min-height: 400px;
+         justify-content: space-between;
+     }
+     .cajita {
+         width: 30%;
+         height: 250px;
+     }
+     .txt_info {
+         left: 25%;
+     }
+     .titulo {
+         width: 30%;
+     }
+     .titulo a {
+         font-size: 16px;
+     }
+     .titulo h5 {
+         font-size: 18px;
+     }
+     .img_peque {
+         width: 30%;
+         height: 250px;
+     }
+     .img_grande {
+         width: 65%;
+         height: 380px;
+     }
+     #galeria {
+         margin: 50px 0 0 0;
+     }
+     #contenedorI {
+         width: 80%;
+         height: 350px;
+         display: flex;
+         justify-content: space-between;
+     }
+ }
  /* TABLET */
-
- @media screen and (min-width: 650px) and (max-width: 1024px)   {
-    #h1 {
-        font-size: 40px;
-    }
-    .titulo {
-        width: 80%;
-        margin: 0px 0 20px 0;
-        top: -10px;  
-    }
-    .titulo a {
-        font-size: 12px;
-    }
-    #galeria{
-        margin: 40px 0 0 0;
-    }
-     #contacto {
-        width: 65%;
-        display: flex;
-        justify-content: unset;
-    }
-    #contacto li{
-        width: 50%;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-    
-    .marIcon{
-        width: 100%;
-        text-align: center;
-        padding: 10px 0;
-    }
-}
-  
-@media screen and (min-width: 0px) and (max-width: 650px)   {
-    .master{
-        margin: 30px 0 0 0;
-    }
-    .abajo{
-        display:flex;
-        flex-direction:column;
-    }
-    .img_peque{
-        display: none;
-    }
-    .img_grande {
-        width: 100%;
-    }
-    .titulo {
-        position: static;
-        width: 100%;
-        margin: -40px 0 30px 0;
-    }
-    .titulo a {
-        font-size: 14px;
-    }
-
-    .txt_info {
-        bottom: -80px;
-    }
-
-    #galeria{
-        min-height: 1050px;
-        margin: 40px 0 0 0;
-    } 
-    .apartamento{
-        min-height:580px;
-    }
-    #imgFondo {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    #contenedorI{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .cajita {
-        width: 100%;
-        min-height: 250px;
-        margin-bottom: 100px;
-    }  
-
-    .footericons{
-        display: flex;
-        flex-direction: column;
-    }
-    .footericons2{
-        width: 80%;
-    }
-    .copyright{
-        width: 100%;
-    }
-    #iconos{
-        margin: 20px 0 0 0;
-    }
-    #contacto {
-        width: 100%;
-        display: flex;
-        justify-content: unset;
-    }
-    #contacto li{
-        width: 50%;
-    }
-    .marIcon{
-        width: 100%;
-        font-size: 13.5px;
-    }
-    #iconos{
-        width: 80%;
-        display: flex;
-        justify-content: space-evenly;
-    }
-    .cajadeincognito {
-        display: none;
-    }
-    #contacto {
-        width: 90%;
-        display: flex;
-        justify-content: unset;
-    }
-    #contacto li{
-        width: 50%;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-    .marIcon{
-        text-align: center;
-        padding: 10px 0;
-        font-size: 11px;
-    }
-    .iconos{
-        font-size: 11px;
-    }
-    .copyright{
-        font-size: 14px;
-    }
-}
+ 
+ @media screen and (min-width: 650px) and (max-width: 1024px) {
+     #h1 {
+         font-size: 40px;
+     }
+     .titulo {
+         width: 80%;
+         margin: 0px 0 20px 0;
+         top: -10px;
+     }
+     .titulo a {
+         font-size: 12px;
+     }
+     .txt_info {
+         left: 20%;
+     }
+     #galeria {
+         margin: 40px 0 0 0;
+     }
+     .contactos {
+         width: 60%;
+     }
+ }
+ 
+ @media screen and (min-width: 0px) and (max-width: 650px) {
+     .master {
+         margin: 30px 0 0 0;
+     }
+     .abajo {
+         display: flex;
+         flex-direction: column;
+     }
+     .img_peque {
+         display: none;
+     }
+     .img_grande {
+         width: 100%;
+     }
+     .prueba1 {
+         display: none;
+     }
+     .titulo {
+         position: static;
+         width: 100%;
+         margin: -40px 0 30px 0;
+     }
+     .titulo a {
+         font-size: 14px;
+     }
+     .txt_info {
+         bottom: -80px;
+     }
+     #galeria {
+         min-height: 1050px;
+         margin: 40px 0 0 0;
+     }
+     .apartamento {
+         min-height: 580px;
+     }
+     #imgFondo {
+         width: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+     #contenedorI {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+     }
+     .cajita {
+         width: 100%;
+         min-height: 250px;
+         margin-bottom: 100px;
+     }
+     .txt_info {
+         bottom: -100px;
+     }
+     #iconos {
+         width: 80%;
+         display: flex;
+         flex-direction: column;
+     }
+     .contactos {
+         width: 100%;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+     }
+     .contactos li {
+         width: 70%;
+         display: flex;
+         justify-content: space-around;
+         margin: 10px 0;
+     }
+     .marIcon {
+         width: 80%;
+     }
+     .social {
+         width: 100%;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         margin: 20px 0 0 0;
+     }
+ }
