@@ -174,7 +174,7 @@ a i {
 
  .txt_info {
      line-height: 1.4;
-     width: 200px;
+     width: 220px;
      position: absolute;
      height: 150px;
      background: #454342de;
@@ -412,7 +412,7 @@ li {
         font-size: 16px;
     }
     .titulo h5 {
-        font-size: 20px;
+        font-size: 18px;
     }
     .img_peque {
         width: 30%;
