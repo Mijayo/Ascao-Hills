@@ -7,30 +7,84 @@ $(document).ready(function() {
             $(".black").css("background", "white");
         }
     });
-});
 
+
+// PISOS
+
+   
 /*
-var perfiles = [{
-        "foto": "img/4.jpg",
-        "edificio": "img/edf1.jpg",
-        "nombre": "Baño",
-    },
-    {
-        "foto": "img/5.jpg",
-        "edificio": "img/edf2.jpg",
-        "nombre": "Cocina",
-    },
-    {
-        "foto": "img/6.jpg",
-        "edificio": "img/edf3.png",
-        "nombre": "Salon",
-    }
+
+});
+var pisos = [{
+    "foto_grande": "img/4.jpg",
+    "foto_pequena": "img/edf1.jpg",
+    "info_titulo": "Travel and Leisure",
+    "tipo": "Apartment",
+    "precio": "130.000 €",
+    "habitaciones": "4",
+    "banos": "2",
+},
+{
+    "titulo": "A unique balance of luxury life",
+    "foto_grande": "img/4.jpg",
+    "foto_pequena": "img/edf1.jpg",
+    "info_titulo": "Travel and Leisure",
+    "titulo2": "Premium leases availible",
+    "tipo": "Apartment",
+    "precio": "130.000 €",
+    "habitaciones": "4",
+    "banos": "2",
+},
 ];
+
+$('#master').load(function() {
+    
+    var plantilla= `
+    <div class="apartamento"> 
+        <div class="abajo">
+            <div class="titulo">
+                <h3>${pisos.titulo}</h3>
+                <h5>${pisos.titulo2}</h5>
+                <a href="#">for sale </a>
+            </div>
+            <div class="apart_info">
+            <img id="img_p_1" class="img_peque" src="${pisos.foto_grande}" alt="">
+            <div class="txt_info">
+                <div class="txt_info_cap animated fast fadeIn">
+                    <h4>${pisos.info_titulo}</h4>
+                    <p>${pisos.tipo}</p>
+                    <div>
+                        <h3>${pisos.precio} €</h3>
+                        <div class="texto_info_peque_p">
+                            <p>${pisos.banos} baños</p>
+                            <p>${pisos.habitaciones} habitaciones</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="txt_info_cap_info animated fast fadeIn">
+                    <a href="#">
+                        Ver 
+                    </a>
+                </div>
+            </div>
+            <img id="img_g_1" class="img_grande" src="${pisos.foto_pequena}" alt="">
+        </div>
+    </div> 
+    `;
+     
+  
+     
+    var master= document.getElementsByTagName("master");
+   
+    master.innerHTML=plantilla;
+   
+   
+} );
 
 
 $('#galeria').load(function() {
 
-    var x = 0;
+
     var foto = document.getElementsByClassName("cajita");
     var fotoin = document.getElementsByClassName("cajita2");
 
@@ -46,4 +100,4 @@ $('#galeria').load(function() {
     }
     document.write("</div>");
     document.write("</section>");
-});*/
+*/
