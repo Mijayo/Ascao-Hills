@@ -7,5 +7,4 @@ $(document).ready(function() {
             $(".black").css("background", "white");
         }
     });
-
 });
