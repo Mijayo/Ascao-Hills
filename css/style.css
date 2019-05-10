@@ -369,7 +369,9 @@
      font-size: 12px;
  }
  
- .marIcon
+ .marIcon {
+     margin: 0 0 0 10px;
+ }
  /************************************************************/
  /*  MEDIA QUERYS */
  /* PC GRANDE */
