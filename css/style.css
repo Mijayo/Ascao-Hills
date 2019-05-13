@@ -542,4 +542,13 @@
          align-items: center;
          margin: 20px 0 0 0;
      }
+     .cool-link {
+         width: 20%;
+     }
+     .titulo {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+     }
  }
